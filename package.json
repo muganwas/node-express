@@ -1,0 +1,26 @@
+{
+  "name": "nodeexpress",
+  "version": "1.0.0",
+  "description": "learning express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muganwas/node-express.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "muganwas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muganwas/node-express/issues"
+  },
+  "homepage": "https://github.com/muganwas/node-express#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
