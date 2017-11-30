@@ -8,6 +8,16 @@
     </head>
     <body>
         <% include templates/header.ejs %>
-        <div>Welcome to <%= title %></div>
+        <div><h3>Welcome to <%= title %></h3></div>
+        <%= videodata.categoryName %><br/>
+        <ul>
+            <%
+                var info = videodata.categories;
+                info.forEach((item)=>{ %>
+                    <li>
+                        <a href="https://thenewboston.com/videos_food.php?cat=<%= item.categoryID %>"><%= item.categoryName %></a>
+                    </li>
+            <% }); %>
+        </ul>
     </body>
 </html>
